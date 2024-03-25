@@ -11,5 +11,11 @@ function areaclaculate(){
     heightfieldvalue = heightfield.value;
     height = parseFloat(heightfieldvalue);
     // console.log(height);
-    console.log(0.5*base*height);
+let area = 0.5*base*height;
+    
+    let areaspan = document.getElementById('triangle-area');
+    areaspan.innerText = area;
+
+    console.log(area);
+
 }
